@@ -10,10 +10,15 @@ const CountingButton = ({ count = 0 }) => (
 export const App = () => (
   <div class={wrap}>
     <img class={logo} src={logoSvg} />
-    <h1>Hello World</h1>
+    <h1>JSX Webpack</h1>
     <p>Three counting buttons</p>
     <CountingButton />
     <CountingButton count={22} />
     <CountingButton count={333} />
+    <p>
+      <a target="_blank" href="https://github.com/fusorjs/dom">
+        Fusor
+      </a>
+    </p>
   </div>
 );
