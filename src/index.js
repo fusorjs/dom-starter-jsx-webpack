@@ -1,4 +1,6 @@
+import { getElement } from "@fusorjs/dom";
+
 import "./index.css";
 import { App } from "./App";
 
-document.body.append(App().element);
+document.body.append(getElement(App()));
